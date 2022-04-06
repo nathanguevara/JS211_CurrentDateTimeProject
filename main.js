@@ -42,12 +42,15 @@ document.getElementById("stringToNum").innerHTML = parseInt(stringToConvert);
  }
  isTypeOf(userData);
  document.getElementById("dataType").innerHTML = typeof userData;
-// Write a JavaScript program that adds 2 numbers together.
-const addTwoNumbers = (num1 ,num2) => {
-  return num1 + num2;
-}
-document.getElementById("addTwoNum").innerhtml = addTwoNumbers();
-// console.log(addTwoNumbers(5,9));
+
+ // Write a JavaScript program that adds 2 numbers together.
+const hereComesTheSum = (num1, num2) => {
+return num1 + num2;
+};
+const results = hereComesTheSum(42,24);
+
+document.getElementById("addTwoNum").innerhtml = results;
+
 
 // Write a JavaScript program that runs only when 2 things are true.
 const thingOne = 50;
